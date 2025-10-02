@@ -16,6 +16,59 @@
         <a href="receptek.html">• Receptek</a>
         <a href="kapcsolat.html">• Kapcsolat / Recept beküldése</a>
     </nav>
+
+        <form method="post" action="https://httpbin.org/post">
+        <br>
+        <label id="uh"> Név: 
+            <input type="text" name="name" placeholder="Pl. Kalap Jakab" maxlength="20" required>
+        </label>
+        <br>
+        <br>
+        <label id="uh"> E-mail: 
+            <input type="email" name="email" placeholder="Pl. kalap@gmail.com" maxlength="25" required>
+        </label>
+        <br>
+        <br>
+        <label for="uh">Jelsző
+            <input type="password" name="password" id="Pl. ABCabc1?!" maxlength="8" required>
+        </label>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Pizza mérete</legend>
+            <label> 
+                <input type="radio" name="size" required value="csaladi"> Családi
+            </label>
+            <br>
+            <label> 
+                <input type="radio" name="size" required value="kozepes"> Közepes
+            </label>
+            <br>
+            <label> 
+                <input type="radio" name="size" required value="kicsi"> Kicsi
+            </label>
+        </fieldset>
+
+
+        <fieldset>
+            <label> 
+                <input type="checkbox" name="feltet" value="kukorica"> Kukorica
+            </label>
+            <br>
+            <label> 
+                <input type="checkbox" name="feltet" value="bacon"> Bacon
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Megjegyzés</legend>
+            <textarea name="megjegyzes" id="megjegyzes_mezo" maxlength="200" placeholder="ide írhatod a megjegyzésed" cols="50" rows="5"></textarea>
+        </fieldset>
+
+        <button type="submit">Elküldés</button>
+        <button type="reset">Visszaállítás</button>
+
     </div>
 </body>
 </html>
