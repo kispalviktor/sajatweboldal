@@ -12,62 +12,31 @@
         <h1>Receptgyűjtemény</h1>
         </header>
         <nav>
-        <a href="#">• Főoldal</a>
+        <a href="index.html">• Főoldal</a>
         <a href="receptek.html">• Receptek</a>
         <a href="kapcsolat.html">• Kapcsolat / Recept beküldése</a>
     </nav>
-
-        <form method="post" action="https://httpbin.org/post">
         <br>
+        <form method="post" action="https://httpbin.org/post">
         <label id="uh"> Név: 
             <input type="text" name="name" placeholder="Pl. Kalap Jakab" maxlength="20" required>
-        </label>
-        <br>
-        <br>
+        </label> 
         <label id="uh"> E-mail: 
             <input type="email" name="email" placeholder="Pl. kalap@gmail.com" maxlength="25" required>
         </label>
-        <br>
-        <br>
-        <label for="uh">Jelsző
-            <input type="password" name="password" id="Pl. ABCabc1?!" maxlength="8" required>
+        <label id="uh"> Jelszó: 
+            <input type="password" name="password" placeholder="Pl. Abc123!?" maxlength="8" required>
         </label>
         <br>
-        <br>
 
-        <fieldset>
-            <legend>Pizza mérete</legend>
             <label> 
-                <input type="radio" name="size" required value="csaladi"> Családi
+                <input type="checkbox" name="box" value="newsletter"> Szeretnék feliratkozni a weboldal hírlevelére.
+                <br>
+                <input type="checkbox" name="box" value="tos" required> Elfogafom azáltalános szerződési feltételeket.
             </label>
             <br>
-            <label> 
-                <input type="radio" name="size" required value="kozepes"> Közepes
-            </label>
-            <br>
-            <label> 
-                <input type="radio" name="size" required value="kicsi"> Kicsi
-            </label>
-        </fieldset>
-
-
-        <fieldset>
-            <label> 
-                <input type="checkbox" name="feltet" value="kukorica"> Kukorica
-            </label>
-            <br>
-            <label> 
-                <input type="checkbox" name="feltet" value="bacon"> Bacon
-            </label>
-        </fieldset>
-
-        <fieldset>
-            <legend>Megjegyzés</legend>
-            <textarea name="megjegyzes" id="megjegyzes_mezo" maxlength="200" placeholder="ide írhatod a megjegyzésed" cols="50" rows="5"></textarea>
-        </fieldset>
 
         <button type="submit">Elküldés</button>
-        <button type="reset">Visszaállítás</button>
 
     </div>
 </body>

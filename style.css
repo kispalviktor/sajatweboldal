@@ -7,6 +7,10 @@
     padding: 14px 16px;
 }
 
+body{
+    background-color: pink;
+}
+
 h1{
     text-align: center;
     text-transform: uppercase;
@@ -44,4 +48,39 @@ nav a:hover {
 nav a.active {
     background-color: rgb(255, 0, 0);
     color: white;
+}
+
+form{
+    max-width: 500px;
+    background: rgb(128, 0, 0);
+    padding: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+label{
+    display: block;
+    color: #eedbb2;
+}
+
+legend{
+    color: #eedbb2;
+}
+
+input{
+    padding-left: 322px;
+}
+
+#uh{
+    color: #eedbb2;
+}
+
+fieldset{
+    background-color: brown;
+}
+
+button{
+    background-color: #eedbb2;
+    border: #a19476;
+    color: rgb(128, 0, 0);
 }
