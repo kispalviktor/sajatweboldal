@@ -90,3 +90,15 @@ button{
     float: right;
     width: 500px;
 }
+
+#topsection{
+    background-color: pink;
+    color: rgb(194, 0, 0);
+}
+
+table, th, td {
+    border: 1px solid pink;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+}
